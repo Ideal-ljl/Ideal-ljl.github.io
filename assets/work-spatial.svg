@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Spatial research thumbnail</title>
+  <desc id="desc">A structured diagram-style thumbnail for a research project.</desc>
+  <rect width="640" height="480" fill="#f6f8fb"/>
+  <rect x="54" y="58" width="532" height="364" rx="18" fill="#ffffff" stroke="#dce3ea"/>
+  <path d="M150 316 320 154l170 162" fill="none" stroke="#0f766e" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="150" cy="316" r="30" fill="#c64f31"/>
+  <circle cx="320" cy="154" r="30" fill="#3858e9"/>
+  <circle cx="490" cy="316" r="30" fill="#0f766e"/>
+  <path d="M194 330h252" stroke="#20242d" stroke-width="8" stroke-linecap="round" opacity="0.2"/>
+  <path d="M216 360h208" stroke="#20242d" stroke-width="8" stroke-linecap="round" opacity="0.12"/>
+</svg>

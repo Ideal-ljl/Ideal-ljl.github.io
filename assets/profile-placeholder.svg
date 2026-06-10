@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="800" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">A clean profile image placeholder with initials.</desc>
+  <rect width="640" height="800" fill="#eef3f6"/>
+  <rect x="48" y="48" width="544" height="704" rx="24" fill="#ffffff"/>
+  <path d="M116 562c62-90 133-135 213-135 79 0 143 45 193 135v86H116z" fill="#0f766e" opacity="0.18"/>
+  <circle cx="320" cy="292" r="104" fill="#c64f31" opacity="0.22"/>
+  <circle cx="320" cy="276" r="82" fill="#ffffff"/>
+  <text x="320" y="324" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="94" font-weight="700" fill="#20242d">JL</text>
+  <path d="M124 126h186" stroke="#0f766e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M124 154h118" stroke="#3858e9" stroke-width="12" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Junli Liu</title>
+    <meta name="description" content="Personal homepage for Junli Liu.">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script defer>
+      window.addEventListener("DOMContentLoaded", function () {
+        if (window.lucide) {
+          window.lucide.createIcons();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav shell" aria-label="Primary">
+        <a class="brand" href="#home">Junli Liu</a>
+        <div class="nav-links">
+          <a href="#news">News</a>
+          <a href="#work">Work</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero band">
+        <div class="shell hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Ph.D. Student · Research Intern · Embodied AI</p>
+            <h1>Junli Liu</h1>
+            <p class="lead">
+              My research explores how embodied agents understand instructions, navigate complex
+              environments, and build predictive world models.
+            </p>
+            <p>
+              I am a Ph.D. student at Northwestern Polytechnical University, where I also completed
+              my bachelor's degree, and I am currently a research intern at Shanghai Artificial
+              Intelligence Laboratory.
+            </p>
+            <div class="hero-actions" aria-label="Profile links">
+              <a class="button primary" href="mailto:liujunlideal@gmail.com">
+                <i data-lucide="mail" aria-hidden="true"></i>
+                Email
+              </a>
+              <a class="button" href="https://github.com/Ideal-ljl">
+                <i data-lucide="github" aria-hidden="true"></i>
+                GitHub
+              </a>
+              <a class="button" href="https://scholar.google.com/citations?user=6mE70awAAAAJ&amp;hl=en">
+                <i data-lucide="graduation-cap" aria-hidden="true"></i>
+                Scholar
+              </a>
+            </div>
+          </div>
+
+          <aside class="profile-panel" aria-label="Profile summary">
+            <img src="assets/profile.jpg" alt="Portrait of Junli Liu" class="portrait">
+            <div class="profile-meta">
+              <strong>Junli Liu</strong>
+              <span>Ph.D. Student</span>
+              <span>Northwestern Polytechnical University</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="news" class="section">
+        <div class="shell section-grid">
+          <div>
+            <p class="section-kicker">Updates</p>
+            <h2>News</h2>
+          </div>
+          <ol class="timeline">
+            <li>
+              <time datetime="2026-03">Mar 2026</time>
+              <p>FreeGaussian was published in the AAAI 2026 proceedings.</p>
+            </li>
+            <li>
+              <time datetime="2026-01">Jan 2026</time>
+              <p>OpenFly was accepted to ICLR 2026.</p>
+            </li>
+            <li>
+              <time datetime="2025-07">Jul 2025</time>
+              <p>AerialVG was accepted to ICCV 2025.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="work" class="section alt-band">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="section-kicker">Focus</p>
+            <h2>What I Work On</h2>
+          </div>
+          <div class="focus-grid">
+            <article class="focus-item">
+              <span class="focus-marker teal"></span>
+              <h3>Embodied AI</h3>
+              <p>Building agents that perceive, reason, and act in physical or simulated environments.</p>
+            </article>
+            <article class="focus-item">
+              <span class="focus-marker coral"></span>
+              <h3>Vision-Language Navigation</h3>
+              <p>Connecting visual perception and language instructions for navigation and decision making.</p>
+            </article>
+            <article class="focus-item">
+              <span class="focus-marker blue"></span>
+              <h3>World Model</h3>
+              <p>Learning structured representations that help agents predict, plan, and generalize.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="section-kicker">Selected Work</p>
+            <h2>Publications and Projects</h2>
+          </div>
+
+          <div class="publication-list">
+            <article class="publication">
+              <img src="assets/aerialvg.jpg" alt="AerialVG teaser figure" class="pub-media">
+              <div class="pub-body">
+                <p class="pub-venue">ICCV 2025</p>
+                <h3>AerialVG: A Challenging Benchmark for Aerial Visual Grounding by Exploring Positional Relations</h3>
+                <p class="authors">
+                  <strong>Junli Liu</strong>, Qizhi Chen, Zhigang Wang, Yiwen Tang, Yiting Zhang,
+                  Chi Yan, Dong Wang, Xuelong Li, Bin Zhao
+                </p>
+                <p>
+                  AerialVG introduces an aerial-view visual grounding benchmark that emphasizes
+                  positional relations and spatial reasoning in high-resolution remote imagery.
+                </p>
+                <div class="pub-links">
+                  <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Liu_AerialVG_A_Challenging_Benchmark_for_Aerial_Visual_Grounding_by_Exploring_ICCV_2025_paper.html">Paper</a>
+                  <a href="https://arxiv.org/abs/2504.07836">arXiv</a>
+                  <a href="https://github.com/Ideal-ljl/AerialVG">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="publication">
+              <img src="assets/openfly.jpg" alt="OpenFly cover figure" class="pub-media">
+              <div class="pub-body">
+                <p class="pub-venue">ICLR 2026</p>
+                <h3>OpenFly: A Comprehensive Platform for Aerial Vision-Language Navigation</h3>
+                <p class="authors">
+                  Yunpeng Gao, Chenhui Li, Zhongrui You, <strong>Junli Liu</strong>, Zhen Li,
+                  Pengan Chen, Qizhi Chen, et al.
+                </p>
+                <p>
+                  OpenFly provides an automated toolchain, large-scale benchmark, and OpenFly-Agent
+                  for outdoor aerial vision-language navigation.
+                </p>
+                <div class="pub-links">
+                  <a href="https://shailab-ipec.github.io/openfly/">Project page</a>
+                  <a href="https://openreview.net/forum?id=OKm3w71ymP">Paper</a>
+                  <a href="https://github.com/SHAILAB-IPEC/OpenFly-Platform">Code</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="publication">
+              <img src="assets/freegaussian.jpg" alt="FreeGaussian teaser figure" class="pub-media">
+              <div class="pub-body">
+                <p class="pub-venue">AAAI 2026 · Oral</p>
+                <h3>FreeGaussian: Annotation-free Control of Articulated Objects via 3D Gaussian Splats with Flow Derivatives</h3>
+                <p class="authors">
+                  Qizhi Chen, Delin Qu, <strong>Junli Liu</strong>, Yiwen Tang, Haoming Song,
+                  Dong Wang, Bin Zhao, et al.
+                </p>
+                <p>
+                  FreeGaussian reconstructs controllable 3D Gaussian representations for articulated
+                  objects from monocular video without manual annotations.
+                </p>
+                <div class="pub-links">
+                  <a href="https://tavish9.github.io/freegaussian/">Project page</a>
+                  <a href="https://arxiv.org/abs/2410.22070">Paper</a>
+                  <a href="https://github.com/Tavish9/freegaussian">Code</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section alt-band">
+        <div class="shell split-section">
+          <div>
+            <p class="section-kicker">Background</p>
+            <h2>Experience</h2>
+          </div>
+          <div class="experience-list">
+            <article>
+              <time>Present</time>
+              <h3>Research Intern, Shanghai Artificial Intelligence Laboratory</h3>
+              <p>Working on research topics around embodied intelligence, vision-language navigation, and world models.</p>
+            </article>
+            <article>
+              <time>Ph.D.</time>
+              <h3>Ph.D. Student, Northwestern Polytechnical University</h3>
+              <p>Researching Embodied AI, Vision-Language Navigation, and world models.</p>
+            </article>
+            <article>
+              <time>Bachelor's</time>
+              <h3>Undergraduate Student, Northwestern Polytechnical University</h3>
+              <p>Completed undergraduate study at Northwestern Polytechnical University.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="shell contact-grid">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2>Let's Connect</h2>
+            <p>
+              I am open to research conversations, collaboration, and practical projects around
+              Embodied AI, Vision-Language Navigation, and world models.
+            </p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:liujunlideal@gmail.com">
+              <i data-lucide="mail" aria-hidden="true"></i>
+              liujunlideal@gmail.com
+            </a>
+            <a href="https://github.com/Ideal-ljl">
+              <i data-lucide="github" aria-hidden="true"></i>
+              github.com/Ideal-ljl
+            </a>
+            <a href="https://scholar.google.com/citations?user=6mE70awAAAAJ&amp;hl=en">
+              <i data-lucide="graduation-cap" aria-hidden="true"></i>
+              Google Scholar
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell footer-inner">
+        <span>© 2026 Junli Liu</span>
+        <a href="#home">Back to top</a>
+      </div>
+    </footer>
+  </body>
+</html>

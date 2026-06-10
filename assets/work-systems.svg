@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Systems project thumbnail</title>
+  <desc id="desc">A dashboard-style thumbnail for an open source project.</desc>
+  <rect width="640" height="480" fill="#f6f8fb"/>
+  <rect x="58" y="64" width="524" height="352" rx="18" fill="#ffffff" stroke="#dce3ea"/>
+  <rect x="94" y="104" width="452" height="46" rx="8" fill="#20242d" opacity="0.08"/>
+  <rect x="94" y="184" width="132" height="154" rx="8" fill="#0f766e" opacity="0.16"/>
+  <rect x="254" y="184" width="132" height="154" rx="8" fill="#3858e9" opacity="0.13"/>
+  <rect x="414" y="184" width="132" height="154" rx="8" fill="#c64f31" opacity="0.16"/>
+  <path d="M118 128h118M278 128h86M118 368h304" stroke="#20242d" stroke-width="8" stroke-linecap="round" opacity="0.22"/>
+  <circle cx="488" cy="127" r="12" fill="#0f766e"/>
+  <circle cx="522" cy="127" r="12" fill="#c64f31"/>
+</svg>
